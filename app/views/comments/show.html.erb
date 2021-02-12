@@ -1,18 +1,25 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-10">
+      <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Body:</strong>
-  <%= @comment.body %>
-</p>
+      <p>
+        <strong>Body:</strong>
+        <%= @comment.body %>
+      </p>
 
-<p>
-  <strong>Post:</strong>
-  <%= @comment.gossip_id %>
-</p>
+      <p>
+        <strong>Post:</strong>
+        <%= @comment.gossip_id %>
+      </p>
 
-<p>
-  <strong>Parent:</strong>
-  <%= @comment.parent_id %>
-</p>
-<a href="<%= edit_gossip_comment_path(@comment) %>" class="btn btn-dark"> Editer </a>
-<a href="<%= gossips_path %>" class="btn btn-dark"> Retour </a>
+      <p>
+        <strong>Parent:</strong>
+        <%= @comment.parent_id %>
+      </p>
+      <a href="<%= edit_gossip_comment_path(@comment) %>" class="btn btn-dark"> Editer </a>
+      <a href="<%= gossips_path %>" class="btn btn-dark"> Retour </a>
+
+    </div>
+  </div>
+</div>
