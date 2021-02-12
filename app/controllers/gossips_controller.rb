@@ -28,7 +28,7 @@ class GossipsController < ApplicationController
 
   def update
     @gossip = current_user.gossips.find(params[:id])
-    if @gossip.update_attributes(item_params)
+    if @gossip.update_attributes(gossip_params)
       redirect_to @gossip, success: "Ton potin a été modifié avec succès ✔ "
     else
       render 'edit'
