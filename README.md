@@ -25,7 +25,8 @@ Futures fonctionnalitées:
 -Listing des commentaires en fonction de leur ville.
 -Probablement d'autres features ;)
 
-
+<p>
 =====================================================================
 Projet réalisé en Peer-learning avec https://github.com/ZugastiKevin/
 =====================================================================
+</p>
